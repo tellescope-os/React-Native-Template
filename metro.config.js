@@ -4,6 +4,12 @@
  *
  * @format
  */
+const path = require('path');
+
+const watchFolders = [
+  //path.resolve(__dirname + '/../lib'),
+  path.resolve(__dirname + '/../../../')
+];
 
 module.exports = {
   transformer: {
@@ -14,4 +20,9 @@ module.exports = {
       },
     }),
   },
+  resolver: {
+    sourceExts: ['jsx', 'js', 'ts', 'tsx'], //add here
+    resolverMainFields: ['browser', 'module', 'main']
+  },
+  watchFolders,
 };

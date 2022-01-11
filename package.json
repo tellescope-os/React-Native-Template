@@ -11,22 +11,24 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "react": "17.0.2",
-    "react-native": "0.66.4",
-    "react-native-vector-icons": "^9.0.0",
-    "react-native-dotenv": "^3.3.0",
     "@react-navigation/bottom-tabs": "^6.0.9",
     "@react-navigation/native": "^6.0.6",
     "@react-navigation/native-stack": "^6.2.5",
     "@tellescope/chat": "0.0.25",
-    "@tellescope/sdk": "0.0.25",
     "@tellescope/constants": "0.0.25",
-    "@tellescope/video-chat": "0.0.25",
-    "@tellescope/utilities": "0.0.25",
+    "@tellescope/react-components": "0.0.25",
+    "@tellescope/sdk": "0.0.25",
     "@tellescope/types-client": "0.0.25",
     "@tellescope/types-models": "0.0.25",
     "@tellescope/types-utilities": "0.0.25",
-    "@tellescope/react-components": "0.0.25"
+    "@tellescope/utilities": "0.0.25",
+    "@tellescope/video-chat": "0.0.25",
+    "react": "17.0.2",
+    "react-native": "0.66.4",
+    "react-native-dotenv": "^3.3.0",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.10.1",
+    "react-native-vector-icons": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
