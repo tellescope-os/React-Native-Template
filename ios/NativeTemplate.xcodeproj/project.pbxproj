@@ -17,10 +17,6 @@
 		931E48A2278CEE2E00B61C72 /* RNVideoViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 931E489C278CEE2E00B61C72 /* RNVideoViewManager.m */; };
 		931E48A3278CEE2E00B61C72 /* MeetingObservers.m in Sources */ = {isa = PBXBuildFile; fileRef = 931E489E278CEE2E00B61C72 /* MeetingObservers.m */; };
 		931E48A4278CEE2E00B61C72 /* NativeMobileSDKBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 931E48A0278CEE2E00B61C72 /* NativeMobileSDKBridge.m */; };
-		931E48A7278CEE4300B61C72 /* AmazonChimeSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931E48A5278CEE4300B61C72 /* AmazonChimeSDK.xcframework */; };
-		931E48A8278CEE4300B61C72 /* AmazonChimeSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 931E48A5278CEE4300B61C72 /* AmazonChimeSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		931E48A9278CEE4300B61C72 /* AmazonChimeSDKMedia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931E48A6278CEE4300B61C72 /* AmazonChimeSDKMedia.xcframework */; };
-		931E48AA278CEE4300B61C72 /* AmazonChimeSDKMedia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 931E48A6278CEE4300B61C72 /* AmazonChimeSDKMedia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,21 +28,6 @@
 			remoteInfo = NativeTemplate;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		931E48AB278CEE4300B61C72 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				931E48AA278CEE4300B61C72 /* AmazonChimeSDKMedia.xcframework in Embed Frameworks */,
-				931E48A8278CEE4300B61C72 /* AmazonChimeSDK.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* NativeTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,9 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931E48A9278CEE4300B61C72 /* AmazonChimeSDKMedia.xcframework in Frameworks */,
 				6172F2D35A4C3AA820D92908 /* libPods-NativeTemplate.a in Frameworks */,
-				931E48A7278CEE4300B61C72 /* AmazonChimeSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +203,6 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */,
 				ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */,
-				931E48AB278CEE4300B61C72 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
