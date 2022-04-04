@@ -3,11 +3,11 @@
 	"version": "0.0.1",
 	"private": true,
 	"dependencies": {
-		"@tellescope/chat": "0.0.32",
-		"@tellescope/react-components": "0.0.32",
-		"@tellescope/types-client": "0.0.32",
-		"@tellescope/utilities": "0.0.32",
-		"@tellescope/video-chat": "0.0.32",
+		"@tellescope/chat": "0.0.62",
+		"@tellescope/react-components": "0.0.62",
+		"@tellescope/types-client": "0.0.62",
+		"@tellescope/utilities": "0.0.62",
+		"@tellescope/video-chat": "0.0.62",
 		"react-native": "0.66.4",
 		"react-native-screens": "^3.10.1"
 	},
